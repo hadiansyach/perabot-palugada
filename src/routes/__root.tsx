@@ -24,6 +24,11 @@ export const Route = createRootRoute({
     ],
     links: [
       {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/ic_bucket.png',
+      },
+      {
         rel: 'preconnect',
         href: 'https://fonts.googleapis.com',
       },
