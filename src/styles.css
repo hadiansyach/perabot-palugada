@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-primary-50: #fcfaf7;
+  --color-primary-100: #f7f0e6;
+  --color-primary-200: #ebd8c1;
+  --color-primary-600: #8C6239;
+  --color-primary-700: #6B492B;
+  --color-primary-800: #4A321E;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  background-color: #FAF9F6;
+  color: #1A1A1A;
+}
+
