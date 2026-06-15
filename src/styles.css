@@ -2,12 +2,20 @@
 
 @theme {
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
-  --color-primary-50: #fcfaf7;
-  --color-primary-100: #f7f0e6;
-  --color-primary-200: #ebd8c1;
-  --color-primary-600: #8C6239;
-  --color-primary-700: #6B492B;
-  --color-primary-800: #4A321E;
+  --color-ikea-blue: #0051BA;
+  --color-ikea-yellow: #FFDA1A;
+  --color-ikea-black: #111111;
+  --color-ikea-gray: #F5F5F5;
+  --color-ikea-white: #FFFFFF;
+
+  /* Let's also override the primary keys so that existing styles map to IKEA colors gracefully */
+  --color-primary-50: #f5f8ff;
+  --color-primary-100: #FFDA1A; /* Accent / Yellow */
+  --color-primary-200: #e0b400;
+  --color-primary-500: #0060dd;
+  --color-primary-600: #0051BA; /* Primary / Blue */
+  --color-primary-700: #004094;
+  --color-primary-800: #003070;
 }
 
 * {
@@ -23,7 +31,8 @@ body,
 body {
   margin: 0;
   font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
-  background-color: #FAF9F6;
-  color: #1A1A1A;
+  background-color: #FFFFFF;
+  color: #111111;
 }
+
 
